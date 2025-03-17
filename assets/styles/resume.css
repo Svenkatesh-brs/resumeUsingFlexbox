@@ -1,0 +1,56 @@
+.background-container{
+    background-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 100vh;
+    width: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;/*render elements in vertical direction*/
+}
+.sorting-container {
+    display: flex; /*for using flex properties mention parent container as flex container*/
+    gap: 20px;
+    justify-content: space-between; /*for equal spacing*/
+  }
+  
+.top-container{
+    text-align: center;
+}
+.certifications-card,.experience-card,.profile-card{
+    width: 50vw;
+    padding: 10px;
+}
+
+.contact-card,.education-card,.languages-card,.skill-card{
+    width: 17vw;
+    padding: 10px;
+}
+.contact-card,.skill-card{
+    margin-right: 50px;
+}
+.certifications-card{
+    margin-left: 50px;
+}
+
+h2{
+    font-size: 20px;
+    color: blue;
+}
+.college-name,.company-name{
+    font-weight: bold;
+}
+.join-date{
+    font-size: 10px;
+}
+.heading-container{
+    display: flex;/* flex container default property is direction row*/
+}
+img{
+    margin-top: 17px;
+    margin-left: 5px;
+    width: 27px;
+    height: 25px;
+}
+.sorting-container{
+    display: flex;
+}
